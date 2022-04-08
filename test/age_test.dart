@@ -22,8 +22,7 @@ void main() {
   AgeDuration nextBirthdayDuration =
       Age.dateDifference(fromDate: today, toDate: nextBirthdayDate);
 
-  print('You next birthday will be on $nextBirthdayDate or in $nextBirthdayDuration');
+  print(
+      'You next birthday will be on $nextBirthdayDate or in $nextBirthdayDuration');
   // You next birthday will be on 2021-01-20 00:00:00.000 or in Years: 0, Months: 11, Days: 27
 }
-
-
